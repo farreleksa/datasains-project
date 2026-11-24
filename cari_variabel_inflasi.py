@@ -1,105 +1,123 @@
+
 import os
 import requests
-import time
 import json
+import time
+
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 API_KEY = os.getenv("BPS_API_KEY")
-BASE_URL = "https://webapi.bps.go.id/v1/api"
 
 if not API_KEY:
     raise ValueError("BPS_API_KEY belum tersedia.")
 
+# ID 3 = Inflasi
+SUBJECT_ID = 3
+
+BASE_URL = "https://webapi.bps.go.id/v1/api/list"
+
+# Mengatur retry otomatis jika terkena HTTP 429
+retry_strategy = Retry(
+    total=8,
+    backoff_factor=3,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+    respect_retry_after_header=True
+)
+
+session = requests.Session()
+
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("https://", adapter)
+
 def ambil_halaman(page):
+
     url = (
-        f"{BASE_URL}/list/model/var/"
-        f"domain/0000/key/{API_KEY}?page={page}"
+        f"{BASE_URL}/model/var/"
+        f"domain/0000/subject/{SUBJECT_ID}/"
+        f"key/{API_KEY}"
     )
 
-    response = requests.get(url, timeout=30)
+    response = session.get(
+        url,
+        params={
+            "lang": "ind",
+            "page": page
+        },
+        timeout=60
+    )
+
     response.raise_for_status()
 
     return response.json()
 
+
 print("=" * 60)
-print("PENCARIAN SELURUH KATALOG VARIABEL BPS")
-print("=" * 60)
-
-# Ambil halaman pertama
-hasil_awal = ambil_halaman(1)
-
-metadata = hasil_awal["data"][0]
-total_halaman = metadata["pages"]
-
-print("Total variabel:", metadata["total"])
-print("Total halaman:", total_halaman)
-
-semua_variabel = []
-
-# Membaca seluruh halaman
-for halaman in range(1, total_halaman + 1):
-
-    hasil = hasil_awal if halaman == 1 else ambil_halaman(halaman)
-
-    data_halaman = hasil["data"][1]
-
-    semua_variabel.extend(data_halaman)
-
-    print(
-        f"Halaman {halaman}/{total_halaman} "
-        f"| Data: {len(data_halaman)}"
-    )
-
-    time.sleep(0.15)
-
-# Pencarian kata kunci
-kata_kunci = [
-    "inflasi",
-    "indeks harga konsumen",
-    "harga konsumen",
-    "consumer price index",
-    "ihk"
-]
-
-print("\nHASIL PENCARIAN INFLASI")
+print("PENCARIAN VARIABEL INFLASI BPS")
 print("=" * 60)
 
-ditemukan = []
+try:
 
-for item in semua_variabel:
+    hasil_awal = ambil_halaman(1)
 
-    teks = " ".join([
-        str(item.get("title", "")),
-        str(item.get("sub_name", "")),
-        str(item.get("subcsa_name", "")),
-        str(item.get("notes", ""))
-    ]).lower()
+    metadata = hasil_awal["data"][0]
+    total_halaman = int(metadata["pages"])
 
-    if any(k in teks for k in kata_kunci):
-        ditemukan.append(item)
+    print("Total variabel:", metadata.get("total"))
+    print("Total halaman:", total_halaman)
 
-for item in ditemukan:
+    semua_variabel = []
 
-    print("ID VARIABEL:", item.get("var_id"))
-    print("NAMA:", item.get("title"))
-    print("SUBJEK:", item.get("sub_name"))
-    print("KATEGORI:", item.get("subcsa_name"))
-    print("SATUAN:", item.get("unit"))
-    print("-" * 60)
+    for halaman in range(1, total_halaman + 1):
 
-print("\nTOTAL VARIABEL DITEMUKAN:", len(ditemukan))
+        hasil = (
+            hasil_awal
+            if halaman == 1
+            else ambil_halaman(halaman)
+        )
 
-# Simpan hasil pencarian
-with open(
-    "katalog_variabel_inflasi.json",
-    "w",
-    encoding="utf-8"
-) as file:
+        data = hasil["data"][1]
 
-    json.dump(
-        ditemukan,
-        file,
-        ensure_ascii=False,
-        indent=2
-    )
+        semua_variabel.extend(data)
 
-print("\nPENCARIAN KATALOG SELESAI!")
+        print(
+            f"Halaman {halaman}/{total_halaman}"
+            f" | Data: {len(data)}"
+        )
+
+        time.sleep(1.5)
+
+    print("\nDAFTAR VARIABEL INFLASI")
+    print("=" * 60)
+
+    for item in semua_variabel:
+
+        print("ID:", item.get("var_id"))
+        print("Nama:", item.get("title"))
+        print("Satuan:", item.get("unit"))
+        print("Subjek:", item.get("sub_name"))
+        print("-" * 50)
+
+    with open(
+        "katalog_variabel_inflasi.json",
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            semua_variabel,
+            file,
+            ensure_ascii=False,
+            indent=4
+        )
+
+    print("\nTOTAL VARIABEL:", len(semua_variabel))
+    print("FILE JSON BERHASIL DISIMPAN!")
+
+except requests.exceptions.RequestException as error:
+
+    print("\nGAGAL MENGAKSES API BPS.")
+    print("Jenis error:", type(error).__name__)
+    print("Silakan coba kembali setelah beberapa saat.")
+
