@@ -17,16 +17,14 @@ for tahun, isi in data.items():
     bagian_data = isi.get("data", [])
 
     print("Tipe data:", type(bagian_data).__name__)
+    print("Jumlah bagian data:", len(bagian_data))
 
-    if isinstance(bagian_data, list):
-        print("Jumlah bagian data:", len(bagian_data))
-
-        for i, bagian in enumerate(bagian_data[:2]):
-            print(f"\nBagian data ke-{i + 1}:")
-            print(json.dumps(
-                bagian,
-                indent=2,
-                ensure_ascii=False
-            )[:2000])
+    if len(bagian_data) > 1:
+        print("\nCONTOH DATA:")
+        print(json.dumps(
+            bagian_data[1],
+            indent=2,
+            ensure_ascii=False
+        )[:2000])
 
 print("\nPEMERIKSAAN SELESAI")
