@@ -2,13 +2,12 @@
 # DOKUMENTASI SUMBER DATA
 ## INDONESIA ECONOMIC INTELLIGENCE DASHBOARD
 
-Dokumen ini digunakan untuk mencatat seluruh sumber data
-yang digunakan dalam proyek analisis kondisi ekonomi Indonesia.
+Dokumen ini disusun untuk mendokumentasikan seluruh sumber data yang digunakan dalam pengembangan Indonesia Economic Intelligence Dashboard. Dokumentasi mencakup asal data, jenis informasi yang dikumpulkan, variabel penelitian, serta proses validasi untuk memastikan data yang digunakan akurat, relevan, dan dapat ditelusuri.
 
 ## 1. DATA TERBUKA RESMI
 
 Sumber:
-- BPS: https://www.bps.go.id
+- Badan Pusat Satistik: https://www.bps.go.id
 - Bank Indonesia: https://www.bi.go.id
 - OJK: https://www.ojk.go.id
 - Kementerian Keuangan: https://www.kemenkeu.go.id
@@ -30,14 +29,15 @@ Sumber:
 - Portal dataset publik lainnya.
 
 Kriteria:
-- Memiliki variabel ekonomi.
-- Memiliki label atau kategori.
-- Memiliki dokumentasi.
-- Memiliki sumber yang dapat diverifikasi.
+- Memuat variabel yang relevan dengan kondisi ekonomi Indonesia.
+- Memiliki label atau kategori yang dapat digunakan untuk proses klasifikasi.
+- Menyediakan dokumentasi mengenai struktur dan definisi variabel.
+- Memiliki sumber data yang jelas dan dapat diverifikasi.
+- Memiliki kelengkapan data yang memadai untuk kebutuhan analisis.
 
 Variabel dan label akan dicatat setelah dataset dipilih.
 
-Status: Menunggu pemilihan dataset.
+Status: Menunggu pemilihan dataset. 
 
 ## 3. TEKS PUBLIK MELALUI API
 
@@ -68,7 +68,7 @@ Dokumen yang direncanakan:
 - Laporan Perekonomian Indonesia.
 - Laporan Kebijakan Moneter.
 - Laporan APBN KiTa.
-- Publikasi ekonomi BPS.
+- Publikasi statistik dan indikator ekonomi BPS.
 
 Informasi yang diekstraksi:
 - Indikator ekonomi.
@@ -86,11 +86,15 @@ Setiap sumber akan diperiksa berdasarkan:
 - Periode pengamatan.
 - Kelengkapan data.
 - Konsistensi satuan.
-- Kesesuaian variabel.
-- Kemungkinan duplikasi.
-
+- Relevansi variabel.
+- Pemeriksaan duplikasi.
+- Konsistensi antar sumber
 ## 6. CATATAN
 
-Data mentah tidak boleh diubah.
-Setiap proses pembersihan dan transformasi harus
-didokumentasikan agar analisis dapat direproduksi.
+Untuk menjaga integritas dan keterlacakan proses analisis, pengelolaan data dilakukan berdasarkan ketentuan berikut:
+- Data mentah (raw data) disimpan sebagai salinan asli dan tidak diubah secara langsung.
+- Proses pembersihan (data cleaning) dan transformasi dilakukan pada salinan data.
+- Setiap perubahan dan tahapan pemrosesan data didokumentasikan
+- Sumber, tanggal pengambilan, periode, dan versi data dicatat untuk memudahkan penelusuran.
+- Data hasil pemrosesan disimpan secara terpisah dari data mentah.
+- Seluruh tahapan pengolahan data diupayakan dapat direproduksi untuk menjaga konsistensi hasil analisis.
