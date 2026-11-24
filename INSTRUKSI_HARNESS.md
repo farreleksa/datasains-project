@@ -191,4 +191,4 @@ Seluruh proses pengembangan Indonesia Economic Intelligence Dashboard harus meme
 - **Data Integration:** hasil dari empat kategori data harus saling melengkapi.
 - **Decision-Oriented:** hasil akhir harus memberikan insight yang relevan untuk mendukung pengambilan keputusan.
 
-Tujuan akhir proyek bukan sekadar membangun dashboard yang menampilkan grafik dan angka statistik, melainkan mengembangkan sistem intelijen ekonomi yang mampu mengintegrasikan berbagai sumber data menjadi informasi yang terstruktur, analisis yang bermakna, serta rekomendasi keputusan yang dapat dipertanggungjawabkan.
+Tujuan akhir proyek bukan sekadar membangun dashboard yang menampilkan grafik dan angka statistik, melainkan mengembangkan sistem intelijen ekonomi yang mampu mengintegrasikan berbagai sumber data menjadi informasi yang terstruktur, analisis yang bermakna, serta rekomendasi keputusan yang dapat dipertanggungjawabkan
