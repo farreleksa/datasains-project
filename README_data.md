@@ -26,7 +26,7 @@ Status: Menunggu pengumpulan data.
 
 Sumber:
 - Kaggle
-- Portal dataset publik.
+- Portal dataset publik BPS dan BI
 
 Kriteria:
 - Memuat variabel yang relevan dengan kondisi ekonomi Indonesia.
