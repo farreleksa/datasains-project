@@ -1,3 +1,4 @@
+
 import os
 import requests
 import json
@@ -7,25 +8,21 @@ API_KEY = os.getenv("BPS_API_KEY")
 if not API_KEY:
     raise ValueError("BPS_API_KEY belum ditemukan.")
 
-BASE_URL = "https://webapi.bps.go.id/v1/api"
-
 url = (
-    f"{BASE_URL}/list/model/data/lang/ind/"
-    f"domain/0000/var/1/key/{API_KEY}"
+    "https://webapi.bps.go.id/v1/api/list/"
+    "model/th/domain/0000/var/1/key/" + API_KEY
 )
 
 response = requests.get(url, timeout=60)
-response.raise_for_status()
 
-data = response.json()
+print("STATUS HTTP:", response.status_code)
+print("RESPON BPS:")
+print(response.text[:5000])
 
-print("STATUS:", data.get("status"))
-print("JUMLAH DATA:", data.get("data-availability"))
+if response.status_code == 200:
+    data = response.json()
 
-print("\nSTRUKTUR DATA:")
-print(json.dumps(data, indent=2, ensure_ascii=False)[:5000])
+    with open("periode_inflasi.json", "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=2, ensure_ascii=False)
 
-with open("data_inflasi_uji.json", "w", encoding="utf-8") as file:
-    json.dump(data, file, indent=2, ensure_ascii=False)
-
-print("\nFILE data_inflasi_uji.json BERHASIL DISIMPAN")
+    print("\nDaftar periode berhasil disimpan.")
