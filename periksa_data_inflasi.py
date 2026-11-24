@@ -1,5 +1,5 @@
-
 import json
+from collections import Counter
 
 with open(
     "data_raw_inflasi_2021_2025.json",
@@ -11,35 +11,34 @@ with open(
 isi = data["2021"]
 
 print("=" * 55)
-print("PEMERIKSAAN STRUKTUR OBSERVASI INFLASI 2021")
+print("ANALISIS KODE OBSERVASI INFLASI")
 print("=" * 55)
 
-for nama in ["tahun", "turtahun", "vervar", "datacontent"]:
-    bagian = isi.get(nama)
+print("\n1. INFORMASI VARIABEL")
+print(json.dumps(isi["var"], indent=2, ensure_ascii=False))
 
-    print(f"\n--- {nama.upper()} ---")
-    print("Tipe:", type(bagian).__name__)
+print("\n2. SELURUH PERIODE")
+for item in isi["turtahun"]:
+    print(item["val"], "-", item["label"])
 
-    if isinstance(bagian, list):
-        print("Jumlah:", len(bagian))
-        print("Contoh:")
-        print(json.dumps(
-            bagian[:5],
-            indent=2,
-            ensure_ascii=False
-        ))
+print("\n3. CONTOH KODE WILAYAH")
+for item in isi["vervar"][:10]:
+    print(item["val"], "-", item["label"])
 
-    elif isinstance(bagian, dict):
-        print("Jumlah:", len(bagian))
-        print("Contoh:")
-        contoh = dict(list(bagian.items())[:10])
-        print(json.dumps(
-            contoh,
-            indent=2,
-            ensure_ascii=False
-        ))
+print("\n4. POLA KODE DATACONTENT")
+datacontent = isi["datacontent"]
 
-    else:
-        print(bagian)
+print("Jumlah observasi:", len(datacontent))
+print("Panjang kode:", Counter(
+    len(str(kode)) for kode in datacontent.keys()
+))
+
+print("\n10 KODE OBSERVASI PERTAMA:")
+for kode, nilai in list(datacontent.items())[:10]:
+    print("Kode:", kode, "| Nilai:", nilai)
+
+print("\n5. CONTOH KODE TERAKHIR:")
+for kode, nilai in list(datacontent.items())[-10:]:
+    print("Kode:", kode, "| Nilai:", nilai)
 
 print("\nPEMERIKSAAN SELESAI")
