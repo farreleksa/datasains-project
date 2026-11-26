@@ -7,7 +7,7 @@ API_KEY = os.getenv("BPS_API_KEY")
 if not API_KEY:
     raise ValueError("BPS_API_KEY belum ditemukan.")
 
-VAR_ID = 520
+VAR_ID = 543
 
 url = (
     "https://webapi.bps.go.id/v1/api/list/model/th/"
