@@ -1,6 +1,6 @@
+
 import os
 import requests
-import json
 
 API_KEY = os.getenv("BPS_API_KEY")
 
@@ -12,7 +12,7 @@ url = "https://webapi.bps.go.id/v1/api/dataexim/"
 params = {
     "sumber": 1,
     "periode": 1,
-    "kodehs": "01",
+    "kodehs": "03",
     "jenishs": 1,
     "tahun": 2025,
     "key": API_KEY
@@ -26,15 +26,17 @@ if response.status_code == 200:
     data = response.json()
     records = data.get("data", [])
 
-    kode_hs = sorted(
-        set(item.get("kodehs") for item in records if item.get("kodehs"))
-    )
+    print("STATUS BPS:", data.get("status"))
+    print("KETERSEDIAAN:", data.get("data-availability"))
+    print("JUMLAH OBSERVASI:", len(records))
 
-    print("\nJUMLAH KELOMPOK HS:", len(kode_hs))
-    print("\nDAFTAR HS:")
+    if records:
+        print("\nNAMA KELOMPOK HS:")
+        print(records[0]["kodehs"])
 
-    for item in kode_hs:
-        print(item)
-
+        print("\nCONTOH DATA:")
+        for item in records[:5]:
+            print(item)
 else:
+    print("DETAIL ERROR:")
     print(response.text[:2000])
