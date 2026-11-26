@@ -1,0 +1,367 @@
+﻿tahun,kode_wilayah,nama_wilayah,id_variabel,kode_turvar,indikator,kode_periode,periode,satuan,nilai_tpt
+2021,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.3
+2021,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.3
+2021,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.01
+2021,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.33
+2021,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.67
+2021,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.52
+2021,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.96
+2021,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.42
+2021,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.76
+2021,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.09
+2021,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.17
+2021,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.98
+2021,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.72
+2021,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.65
+2021,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.54
+2021,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.69
+2021,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.04
+2021,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.03
+2021,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,10.12
+2021,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,9.91
+2021,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,8.51
+2021,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,8.5
+2021,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,8.92
+2021,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,9.82
+2021,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.96
+2021,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.95
+2021,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.28
+2021,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.56
+2021,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.17
+2021,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.74
+2021,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,9.01
+2021,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,8.98
+2021,5100,BALI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.42
+2021,5100,BALI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.37
+2021,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.97
+2021,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.01
+2021,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.38
+2021,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.77
+2021,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.73
+2021,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.82
+2021,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.25
+2021,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.53
+2021,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.33
+2021,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.95
+2021,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.81
+2021,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.83
+2021,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.67
+2021,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.58
+2021,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,7.28
+2021,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,7.06
+2021,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.73
+2021,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.75
+2021,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.79
+2021,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.72
+2021,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.22
+2021,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.92
+2021,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.41
+2021,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.01
+2021,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.28
+2021,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.13
+2021,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.73
+2021,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.93
+2021,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.06
+2021,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.71
+2021,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.18
+2021,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.84
+2021,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.77
+2021,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.33
+2021,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.26
+2021,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.49
+2022,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.97
+2022,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.17
+2022,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.47
+2022,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.16
+2022,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.17
+2022,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.28
+2022,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.4
+2022,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.37
+2022,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.7
+2022,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.59
+2022,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.74
+2022,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.63
+2022,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.39
+2022,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.59
+2022,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.31
+2022,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.52
+2022,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.18
+2022,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.77
+2022,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,8.02
+2022,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,8.23
+2022,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,8.0
+2022,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,7.18
+2022,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,8.35
+2022,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,8.31
+2022,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.75
+2022,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.57
+2022,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.73
+2022,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.06
+2022,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.81
+2022,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.49
+2022,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,8.53
+2022,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,8.09
+2022,5100,BALI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.84
+2022,5100,BALI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.8
+2022,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.92
+2022,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.89
+2022,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.3
+2022,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.54
+2022,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.86
+2022,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.11
+2022,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.2
+2022,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.26
+2022,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.2
+2022,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.74
+2022,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.77
+2022,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.71
+2022,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.62
+2022,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.33
+2022,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.51
+2022,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.61
+2022,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.67
+2022,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.0
+2022,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.75
+2022,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.51
+2022,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.86
+2022,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.36
+2022,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.25
+2022,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.58
+2022,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.11
+2022,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.34
+2022,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.44
+2022,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.88
+2022,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.98
+2022,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.98
+2022,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.78
+2022,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.37
+2022,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.6
+2022,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.83
+2022,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.83
+2022,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.86
+2023,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.75
+2023,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.03
+2023,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.24
+2023,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.89
+2023,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.9
+2023,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.94
+2023,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.25
+2023,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.23
+2023,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.5
+2023,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.53
+2023,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.53
+2023,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.11
+2023,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.21
+2023,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.42
+2023,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.18
+2023,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.23
+2023,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.89
+2023,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.56
+2023,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,7.61
+2023,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.8
+2023,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,7.57
+2023,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.53
+2023,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,7.89
+2023,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,7.44
+2023,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.24
+2023,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.13
+2023,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.58
+2023,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.69
+2023,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.33
+2023,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.88
+2023,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,7.97
+2023,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,7.52
+2023,5100,BALI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.73
+2023,5100,BALI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.69
+2023,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.73
+2023,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.8
+2023,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.1
+2023,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.14
+2023,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.52
+2023,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.05
+2023,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.84
+2023,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.1
+2023,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.95
+2023,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.31
+2023,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.37
+2023,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.31
+2023,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.1
+2023,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.01
+2023,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.19
+2023,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.1
+2023,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.49
+2023,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.95
+2023,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.26
+2023,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.33
+2023,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.66
+2023,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.15
+2023,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.07
+2023,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.06
+2023,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.04
+2023,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.27
+2023,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.08
+2023,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.31
+2023,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.6
+2023,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.31
+2023,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.53
+2023,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.38
+2023,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.49
+2023,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.67
+2023,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.45
+2023,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.32
+2024,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.56
+2024,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.75
+2024,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.1
+2024,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.6
+2024,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.79
+2024,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.75
+2024,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.85
+2024,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.7
+2024,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.45
+2024,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.48
+2024,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.97
+2024,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.86
+2024,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.17
+2024,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.11
+2024,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.12
+2024,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.19
+2024,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.85
+2024,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.63
+2024,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.94
+2024,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.39
+2024,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.03
+2024,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.21
+2024,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.91
+2024,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.75
+2024,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.39
+2024,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.78
+2024,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.24
+2024,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.48
+2024,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.74
+2024,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.19
+2024,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,7.02
+2024,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.68
+2024,5100,BALI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,1.87
+2024,5100,BALI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,1.79
+2024,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.3
+2024,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.73
+2024,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.17
+2024,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.02
+2024,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.2
+2024,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.86
+2024,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.67
+2024,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.01
+2024,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.89
+2024,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.2
+2024,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.75
+2024,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.14
+2024,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.01
+2024,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.9
+2024,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.98
+2024,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.85
+2024,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.15
+2024,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.94
+2024,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.9
+2024,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.19
+2024,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.22
+2024,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.09
+2024,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.05
+2024,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.13
+2024,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.02
+2024,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.68
+2024,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.96
+2024,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.11
+2024,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.16
+2024,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.03
+2024,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.31
+2024,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.13
+2024,9200,PAPUA BARAT DAYA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.02
+2024,9200,PAPUA BARAT DAYA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.48
+2024,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.81
+2024,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.48
+2024,9500,PAPUA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.75
+2024,9500,PAPUA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.05
+2024,9600,PAPUA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,2.49
+2024,9600,PAPUA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.75
+2024,9700,PAPUA PEGUNUNGAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,1.18
+2024,9700,PAPUA PEGUNUNGAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,1.32
+2024,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.82
+2024,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.91
+2025,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.5
+2025,1100,ACEH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.64
+2025,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.05
+2025,1200,SUMATERA UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.32
+2025,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.69
+2025,1300,SUMATERA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.62
+2025,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.12
+2025,1400,RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.16
+2025,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.48
+2025,1500,JAMBI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.26
+2025,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.89
+2025,1600,SUMATERA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.69
+2025,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.24
+2025,1700,BENGKULU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.41
+2025,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.07
+2025,1800,LAMPUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.21
+2025,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.17
+2025,1900,KEP. BANGKA BELITUNG,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.45
+2025,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.89
+2025,2100,KEP. RIAU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.45
+2025,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.18
+2025,3100,DKI JAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.05
+2025,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.74
+2025,3200,JAWA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.77
+2025,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.33
+2025,3300,JAWA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.66
+2025,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.18
+2025,3400,DI YOGYAKARTA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.46
+2025,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.61
+2025,3500,JAWA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.88
+2025,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.64
+2025,3600,BANTEN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.69
+2025,5100,BALI,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,1.58
+2025,5100,BALI,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,1.49
+2025,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.22
+2025,5200,NUSA TENGGARA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.06
+2025,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.23
+2025,5300,NUSA TENGGARA TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.31
+2025,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.23
+2025,6100,KALIMANTAN BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.82
+2025,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.47
+2025,6200,KALIMANTAN TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.97
+2025,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.94
+2025,6300,KALIMANTAN SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.16
+2025,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.33
+2025,6400,KALIMANTAN TIMUR,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.18
+2025,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.9
+2025,6500,KALIMANTAN UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.85
+2025,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.03
+2025,7100,SULAWESI UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,5.99
+2025,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.02
+2025,7200,SULAWESI TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.92
+2025,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.96
+2025,7300,SULAWESI SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.21
+2025,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.27
+2025,7400,SULAWESI TENGGARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.31
+2025,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.12
+2025,7500,GORONTALO,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.42
+2025,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.17
+2025,7600,SULAWESI BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,2.86
+2025,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,5.95
+2025,8100,MALUKU,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.27
+2025,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.26
+2025,8200,MALUKU UTARA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.55
+2025,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.21
+2025,9100,PAPUA BARAT,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.55
+2025,9200,PAPUA BARAT DAYA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.61
+2025,9200,PAPUA BARAT DAYA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.85
+2025,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,6.92
+2025,9400,PAPUA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,6.96
+2025,9500,PAPUA SELATAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.9
+2025,9500,PAPUA SELATAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.04
+2025,9600,PAPUA TENGAH,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,3.55
+2025,9600,PAPUA TENGAH,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,3.62
+2025,9700,PAPUA PEGUNUNGAN,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,1.68
+2025,9700,PAPUA PEGUNUNGAN,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,1.68
+2025,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,189,Februari,Persen,4.76
+2025,9999,INDONESIA,543,0,Tingkat Pengangguran Terbuka,190,Agustus,Persen,4.85
