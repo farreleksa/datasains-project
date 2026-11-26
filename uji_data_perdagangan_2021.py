@@ -9,45 +9,55 @@ if not API_KEY:
 
 url = "https://webapi.bps.go.id/v1/api/dataexim/"
 
-print("PENGUJIAN HS 03 UNTUK TAHUN 2021-2025")
+daftar_sumber = [
+    (1, "EKSPOR"),
+    (2, "IMPOR")
+]
+
+print("UJI KETERSEDIAAN EKSPOR DAN IMPOR")
 print("=" * 55)
 
-for tahun in range(2021, 2026):
+for sumber, nama in daftar_sumber:
 
-    params = {
-        "sumber": 1,
-        "periode": 1,
-        "kodehs": "03",
-        "jenishs": 1,
-        "tahun": tahun,
-        "key": API_KEY
-    }
+    print("\nJENIS DATA:", nama)
 
-    try:
-        response = requests.get(
-            url,
-            params=params,
-            timeout=120
-        )
+    for tahun in range(2021, 2026):
 
-        print("\nTAHUN:", tahun)
-        print("HTTP STATUS:", response.status_code)
+        params = {
+            "sumber": sumber,
+            "periode": 1,
+            "kodehs": "03",
+            "jenishs": 1,
+            "tahun": tahun,
+            "key": API_KEY
+        }
 
-        if response.status_code == 200:
-            data = response.json()
-            records = data.get("data", [])
+        try:
+            response = requests.get(
+                url,
+                params=params,
+                timeout=120
+            )
 
-            print("STATUS BPS:", data.get("status"))
-            print("KETERSEDIAAN:", data.get("data-availability"))
-            print("JUMLAH OBSERVASI:", len(records))
+            if response.status_code == 200:
 
-            if records:
-                print("CONTOH:", records[0])
+                data = response.json()
+                records = data.get("data", [])
 
-        else:
-            print("ERROR:", response.text[:500])
+                print(
+                    f"Tahun {tahun} | "
+                    f"Ketersediaan: "
+                    f"{data.get('data-availability')} | "
+                    f"Observasi: {len(records)}"
+                )
 
-    except requests.exceptions.RequestException as error:
-        print("KESALAHAN KONEKSI:", error)
+            else:
+                print(
+                    f"Tahun {tahun} | "
+                    f"HTTP {response.status_code}"
+                )
+
+        except requests.exceptions.RequestException as error:
+            print("Kesalahan:", error)
 
 print("\nPENGUJIAN SELESAI")
