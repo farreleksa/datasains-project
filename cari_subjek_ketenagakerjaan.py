@@ -1,11 +1,11 @@
 import os
 import requests
-import json
+import os
 
 API_KEY = os.getenv("BPS_API_KEY")
 
 if not API_KEY:
-    raise ValueError("BPS_API_KEY belum ditemukan.")
+    raise ValueError("BPS_API_KEY belum ditemukan. Periksa environment variable Windows.")
 
 url = (
     "https://webapi.bps.go.id/v1/api/list/"
