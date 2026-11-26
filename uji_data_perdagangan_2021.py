@@ -9,55 +9,48 @@ if not API_KEY:
 
 url = "https://webapi.bps.go.id/v1/api/dataexim/"
 
-daftar_sumber = [
-    (1, "EKSPOR"),
-    (2, "IMPOR")
-]
-
-print("UJI KETERSEDIAAN EKSPOR DAN IMPOR")
+print("UJI KLASIFIKASI HS 2021-2022")
 print("=" * 55)
 
-for sumber, nama in daftar_sumber:
-
-    print("\nJENIS DATA:", nama)
-
-    for tahun in range(2021, 2026):
+for tahun in [2021, 2022]:
+    for jenis_hs in [1, 2]:
 
         params = {
-            "sumber": sumber,
+            "sumber": 1,
             "periode": 1,
             "kodehs": "03",
-            "jenishs": 1,
+            "jenishs": jenis_hs,
             "tahun": tahun,
             "key": API_KEY
         }
 
-        try:
-            response = requests.get(
-                url,
-                params=params,
-                timeout=120
+        response = requests.get(
+            url,
+            params=params,
+            timeout=120
+        )
+
+        print(
+            f"\nTahun: {tahun} | "
+            f"Jenis HS: {jenis_hs}"
+        )
+
+        print("HTTP:", response.status_code)
+
+        if response.status_code == 200:
+            data = response.json()
+            records = data.get("data", [])
+
+            print(
+                "Ketersediaan:",
+                data.get("data-availability")
             )
+            print("Observasi:", len(records))
 
-            if response.status_code == 200:
+            if records:
+                print("Contoh:", records[0])
 
-                data = response.json()
-                records = data.get("data", [])
-
-                print(
-                    f"Tahun {tahun} | "
-                    f"Ketersediaan: "
-                    f"{data.get('data-availability')} | "
-                    f"Observasi: {len(records)}"
-                )
-
-            else:
-                print(
-                    f"Tahun {tahun} | "
-                    f"HTTP {response.status_code}"
-                )
-
-        except requests.exceptions.RequestException as error:
-            print("Kesalahan:", error)
+        else:
+            print(response.text[:500])
 
 print("\nPENGUJIAN SELESAI")
