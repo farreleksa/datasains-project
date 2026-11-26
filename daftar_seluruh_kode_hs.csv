@@ -1,0 +1,98 @@
+﻿kode_hs,nama_hs,jumlah_observasi,status
+01,[01] Binatang hidup,404,OK
+02,[02] Daging hewan,117,OK
+03,"[03] Ikan, krustasea, dan moluska",3877,OK
+04,"[04] Susu, mentega, dan telur",987,OK
+05,[05] Produk hewani,980,OK
+06,[06] Pohon hidup dan bunga potong,683,OK
+07,[07] Sayuran,940,OK
+08,[08] Buah-buahan,2605,OK
+09,"[09] Kopi, teh, dan rempah-rempah",3038,OK
+10,[10] Serealia,153,OK
+11,[11] Hasil penggilingan,686,OK
+12,[12] Biji dan buah mengandung minyak,1189,OK
+13,"[13] Lak, getah, dan damar",1165,OK
+14,[14] Bahan anyaman nabati,611,OK
+15,[15] Lemak dan minyak hewani/nabati,6375,OK
+16,"[16] Olahan dari daging, ikan, krustasea, dan moluska",1798,OK
+17,[17] Gula dan kembang gula,1957,OK
+18,[18] Kakao dan olahannya,1696,OK
+19,[19] Olahan dari tepung,2477,OK
+20,"[20] Olahan dari sayuran, buah, dan kacang",1783,OK
+21,[21] Berbagai makanan olahan,2972,OK
+22,"[22] Minuman, alkohol, dan cuka",1426,OK
+23,[23] Ampas dan sisa industri makanan,1252,OK
+24,[24] Tembakau dan rokok,1808,OK
+25,"[25] Garam, belerang, batu, dan semen",1182,OK
+26,"[26] Bijih logam, terak, dan abu",272,OK
+27,[27] Bahan bakar mineral,2768,OK
+28,[28] Bahan kimia anorganik,1334,OK
+29,[29] Bahan kimia organik,3569,OK
+30,[30] Produk farmasi,1420,OK
+31,[31] Pupuk,509,OK
+32,[32] Sari bahan samak dan celup,1615,OK
+33,"[33] Minyak atsiri, wewangian, dan kosmetik",2955,OK
+34,[34] Sabun dan preparat pembersih,3743,OK
+35,[35] Perekat dan enzim,918,OK
+36,"[36] Bahan peledak, korek api, dan kembang api",107,OK
+37,[37] Barang fotografi atau sinematografi,91,OK
+38,[38] Berbagai produk kimia,3949,OK
+39,[39] Plastik dan barang dari plastik,5026,OK
+40,[40] Karet dan barang dari karet,4492,OK
+41,[41] Jangat dan kulit mentah/samak,682,OK
+42,[42] Barang dari kulit samak,3192,OK
+43,"[43] Kulit berbulu, bulu tiruan, dan barang daripadanya",56,OK
+44,[44] Kayu dan barang dari kayu,4770,OK
+45,[45] Gabus dan barang dari gabus,47,OK
+46,[46] Barang anyaman,2332,OK
+47,[47] Pulp dari kayu,562,OK
+48,"[48] Kertas, karton, dan barang daripadanya",6558,OK
+49,[49] Produk industri percetakan,1536,OK
+50,[50] Sutra,56,OK
+51,"[51] Wol, bulu hewan halus atau kasar",114,OK
+52,[52] Kapas,1516,OK
+53,[53] Serat tekstil nabati lainnya,382,OK
+54,[54] Filamen buatan,1848,OK
+55,[55] Serat stapel buatan,2155,OK
+56,"[56] Kain kempa, benang khusus, dan benang pintal",1555,OK
+57,[57] Karpet dan tekstil penutup lantai lainnya,781,OK
+58,[58] Kain tenunan khusus,1120,OK
+59,[59] Kain tekstil dilapisi atau dilaminasi,1006,OK
+60,[60] Kain rajutan,845,OK
+61,[61] Pakaian dan aksesorinya (rajutan),3480,OK
+62,[62] Pakaian dan aksesorinya (bukan rajutan),4010,OK
+63,[63] Barang tekstil jadi lainnya,2352,OK
+64,[64] Alas kaki,3572,OK
+65,[65] Tutup kepala dan bagiannya,1859,OK
+66,"[66] Payung, tongkat, dan bagiannya",502,OK
+67,"[67] Barang dari bulu unggas, bunga artifisial, dan wig",941,OK
+68,"[68] Barang dari batu, semen, asbes, atau mika",2761,OK
+69,[69] Produk keramik,2415,OK
+70,[70] Kaca dan barang dari kaca,2948,OK
+71,[71] Logam mulia dan perhiasan/permata,1750,OK
+72,[72] Besi dan baja,1414,OK
+73,[73] Barang dari besi dan baja,3391,OK
+74,[74] Tembaga dan barang daripadanya,999,OK
+75,[75] Nikel dan barang daripadanya,301,OK
+76,[76] Aluminium dan barang daripadanya,2075,OK
+77,Tidak ada data,0,OK
+78,[78] Timbal dan barang daripadanya,91,OK
+79,[79] Seng dan barang daripadanya,290,OK
+80,[80] Timah dan barang daripadanya,342,OK
+81,[81] Logam tidak mulia  lainnya,225,OK
+82,[82] Perkakas dan peralatan dari logam tidak mulia,1395,OK
+83,[83] Berbagai barang logam tidak mulia,2744,OK
+84,[84] Mesin dan peralatan  mekanis serta bagiannya ,4817,OK
+85,[85] Mesin dan perlengkapan elektrik serta bagiannya ,5130,OK
+86,"[86] Kereta api, trem, dan bagiannya",202,OK
+87,[87] Kendaraan dan bagiannya,3377,OK
+88,[88] Kendaraan udara dan bagiannya,580,OK
+89,"[89] Kapal, perahu, dan struktur terapung",203,OK
+90,"[90] Instrumen optik, fotografi, sinematografi, dan medis",2410,OK
+91,[91] Jam dan arloji serta bagiannya,412,OK
+92,[92] Instrumen musik dan bagiannya,1684,OK
+93,[93] Senjata dan amunisi serta bagiannya,58,OK
+94,"[94] Perabotan, lampu, dan alat penerangan ",4202,OK
+95,"[95] Mainan, permainan dan keperluan olahraga ",2381,OK
+96,[96] Berbagai barang buatan pabrik,2350,OK
+97,"[97] Karya seni, barang kolektor, dan barang antik",734,OK
